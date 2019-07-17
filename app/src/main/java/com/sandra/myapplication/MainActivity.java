@@ -1,9 +1,5 @@
 package com.sandra.myapplication;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -21,6 +17,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     TextView txtResult;
-    Button btnScan,btnReset;
+    Button btnScan;//btnReset;
     ImageView scanZBar;
 
     BarcodeDetector detector;
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         txtResult = findViewById(R.id.txtresult);
         btnScan = findViewById(R.id.btnScan);
-        btnReset = findViewById(R.id.btnReset);
+        //btnReset = findViewById(R.id.btnReset);
         scanZBar = findViewById(R.id.scanZBar);
 
         /**
@@ -82,13 +81,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        btnReset.setOnClickListener(new View.OnClickListener() {
+       /* btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // pour vider l'image et le textView de txtResult
 
             }
-        });
+        });*/
     }
 
     @Override

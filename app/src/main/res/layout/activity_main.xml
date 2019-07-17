@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,7 @@
         android:layout_marginTop="157dp"
         android:layout_marginEnd="44dp"
         android:layout_marginRight="44dp"
-        android:background="#D5EEDCC3" />
+        android:background="@drawable/bb74793e6be9106b" />
 
     <TextView
         android:id="@+id/txtresult"
@@ -27,24 +26,24 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginBottom="216dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginBottom="611dp"
         android:background="#00FFFCFC" />
 
     <Button
         android:id="@+id/btnScan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="148dp"
+        android:layout_height="73dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="41dp"
-        android:layout_marginLeft="41dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="455dp"
         android:text="Scanner" />
 
-    <Button
+   <!-- <Button
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,5 +53,5 @@
         android:layout_marginTop="57dp"
         android:layout_marginEnd="58dp"
         android:layout_marginRight="58dp"
-        android:text="Reset" />
+        android:text="Reset" /> -->
 </RelativeLayout>
